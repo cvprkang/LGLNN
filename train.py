@@ -191,7 +191,7 @@ class ModelTrainer(object):
             tt.log_scalar('train/node_accr', query_node_accr_layers[-1], self.global_step)
             
             test_ac = 0
-            if self.global_step % 5000==0:
+            if self.global_step % 1000==0:
  
                 test_ac = self.eval(partition='test')
                 print('\n'+str(test_ac)+'\n')
