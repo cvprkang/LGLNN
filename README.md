@@ -3,11 +3,10 @@ The code repository for "LGLNN: Label Guided Graph Learning-Neural Network for F
 which is implemented based on EGNN[1]
 
 Training
-
-# ************************** miniImagenet, 5way 1shot *****************************
+************************** miniImagenet, 5way 1shot *****************************
 $ python3 train.py --dataset mini --num_ways 5 --num_shots 1 --transductive True
 
-# ************************** miniImagenet, 5way 5shot *****************************
+************************** miniImagenet, 5way 5shot *****************************
 $ python3 train.py --dataset mini --num_ways 5 --num_shots 5 --transductive True
 
 Evaluation
